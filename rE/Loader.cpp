@@ -77,7 +77,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
         style.Colors[ImGuiCol_WindowBg].w = 1.0f;
     }
 
-    bool imageLoaded = LoadTextureFromFile("D:\\rE.png", &reImage, &reWidth, &reHeight);
+    bool imageLoaded = LoadTextureFromFile("C:\\rE.png", &reImage, &reWidth, &reHeight);
     IM_ASSERT(imageLoaded);
 
     ImGui_ImplWin32_Init(Window);
